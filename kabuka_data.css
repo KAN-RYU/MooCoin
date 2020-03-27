@@ -1,0 +1,403 @@
+@charset 'Shift_JIS';
+
+table.kabukaData{
+	margin: 10px 0px;
+}
+
+table.kabukaData th{
+}
+table.kabukaData td{
+	color: #333333;
+}
+
+table.kabukaData th span,
+table.kabukaData td span{
+	margin: 0px;
+	padding: 0px 2px;
+}
+
+/* -------------------------------- */
+
+/* Šï”s–Ú */
+table.kabukaData tr.odd{
+}
+/* ‹ô”s–Ú */
+table.kabukaData tr.even{
+	background-color: #fffcf0;
+}
+
+/* ”gŒ^ */
+table.kabukaData tr.nami{
+}
+/* ƒWƒŠ•nŒ^ */
+table.kabukaData tr.jiri{
+}
+/* ‚RŠúŒ^ */
+table.kabukaData tr.fev3{
+}
+/* ‚SŠúŒ^ */
+table.kabukaData tr.fev4{
+}
+/* ”gŒ^ADi’J’J/ŽR’J/’J’J/ŽRŽR/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiAD{
+}
+/* ”gŒ^AEi’J’J/ŽRŽR/’J’J/’JŽR/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiAE{
+}
+/* ”gŒ^AFi’J’J/ŽRŽR/ŽR’J/’J’J/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiAF{
+}
+/* ”gŒ^AGi’J’J/ŽRŽR/ŽRŽR/’J’J/’JŽR/ŽRŽRj */
+table.kabukaData tr.namiAG{
+}
+/* ”gŒ^AHi’J’J/ŽRŽR/ŽRŽR/ŽR’J/’J’J/ŽRŽRj */
+table.kabukaData tr.namiAH{
+}
+/* ”gŒ^AIi’J’J/ŽRŽR/ŽRŽR/ŽRŽR/’J’J/’JŽRj */
+table.kabukaData tr.namiAI{
+}
+/* ”gŒ^AJi’J’J/ŽRŽR/ŽRŽR/ŽRŽR/ŽR’J/’J’Jj */
+table.kabukaData tr.namiAJ{
+}
+/* ”gŒ^BEiŽR’J/’JŽR/’J’J/’JŽR/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiBE{
+}
+/* ”gŒ^BFiŽR’J/’JŽR/ŽR’J/’J’J/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiBF{
+}
+/* ”gŒ^BGiŽR’J/’JŽR/ŽRŽR/’J’J/’JŽR/ŽRŽRj */
+table.kabukaData tr.namiBG{
+}
+/* ”gŒ^BHiŽR’J/’JŽR/ŽRŽR/ŽR’J/’J’J/ŽRŽRj */
+table.kabukaData tr.namiBH{
+}
+/* ”gŒ^BIiŽR’J/’JŽR/ŽRŽR/ŽRŽR/’J’J/’JŽRj */
+table.kabukaData tr.namiBI{
+}
+/* ”gŒ^BJiŽR’J/’JŽR/ŽRŽR/ŽRŽR/ŽR’J/’J’Jj */
+table.kabukaData tr.namiBJ{
+}
+/* ”gŒ^CFiŽRŽR/’J’J/ŽR’J/’J’J/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiCF{
+}
+/* ”gŒ^CGiŽRŽR/’J’J/ŽRŽR/’J’J/’JŽR/ŽRŽRj */
+table.kabukaData tr.namiCG{
+}
+/* ”gŒ^CHiŽRŽR/’J’J/ŽRŽR/ŽR’J/’J’J/ŽRŽRj */
+table.kabukaData tr.namiCH{
+}
+/* ”gŒ^CIiŽRŽR/’J’J/ŽRŽR/ŽRŽR/’J’J/’JŽRj */
+table.kabukaData tr.namiCI{
+}
+/* ”gŒ^CJiŽRŽR/’J’J/ŽRŽR/ŽRŽR/ŽR’J/’J’Jj */
+table.kabukaData tr.namiCJ{
+}
+/* ”gŒ^DGiŽRŽR/ŽR’J/’JŽR/’J’J/’JŽR/ŽRŽRj */
+table.kabukaData tr.namiDG{
+}
+/* ”gŒ^DHiŽRŽR/ŽR’J/’JŽR/ŽR’J/’J’J/ŽRŽRj */
+table.kabukaData tr.namiDH{
+}
+/* ”gŒ^DIiŽRŽR/ŽR’J/’JŽR/ŽRŽR/’J’J/’JŽRj */
+table.kabukaData tr.namiDI{
+}
+/* ”gŒ^DJiŽRŽR/ŽR’J/’JŽR/ŽRŽR/ŽR’J/’J’Jj */
+table.kabukaData tr.namiDJ{
+}
+/* ”gŒ^EAi’J’J/’JŽR/’J’J/ŽRŽR/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiEA{
+}
+/* ”gŒ^EHiŽRŽR/ŽRŽR/’J’J/ŽR’J/’J’J/ŽRŽRj */
+table.kabukaData tr.namiEH{
+}
+/* ”gŒ^EIiŽRŽR/ŽRŽR/’J’J/ŽRŽR/’J’J/’JŽRj */
+table.kabukaData tr.namiEI{
+}
+/* ”gŒ^EJiŽRŽR/ŽRŽR/’J’J/ŽRŽR/ŽR’J/’J’Jj */
+table.kabukaData tr.namiEJ{
+}
+/* ”gŒ^FAi’J’J/’JŽR/ŽR’J/’JŽR/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiFA{
+}
+/* ”gŒ^FBiŽR’J/’J’J/ŽR’J/’JŽR/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiFB{
+}
+/* ”gŒ^FIiŽRŽR/ŽRŽR/ŽR’J/’JŽR/’J’J/’JŽRj */
+table.kabukaData tr.namiFI{
+}
+/* ”gŒ^FJiŽRŽR/ŽRŽR/ŽR’J/’JŽR/ŽR’J/’J’Jj */
+table.kabukaData tr.namiFJ{
+}
+/* ”gŒ^GAi’J’J/’JŽR/ŽRŽR/’J’J/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiGA{
+}
+/* ”gŒ^GBiŽR’J/’J’J/ŽRŽR/’J’J/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiGB{
+}
+/* ”gŒ^GCiŽRŽR/’J’J/’JŽR/’J’J/ŽRŽR/ŽRŽRj */
+table.kabukaData tr.namiGC{
+}
+/* ”gŒ^GJiŽRŽR/ŽRŽR/ŽRŽR/’J’J/ŽR’J/’J’Jj */
+table.kabukaData tr.namiGJ{
+}
+/* ”gŒ^HAi’J’J/’JŽR/ŽRŽR/ŽR’J/’JŽR/ŽRŽRj */
+table.kabukaData tr.namiHA{
+}
+/* ”gŒ^HBiŽR’J/’J’J/ŽRŽR/ŽR’J/’JŽR/ŽRŽRj */
+table.kabukaData tr.namiHB{
+}
+/* ”gŒ^HCiŽRŽR/’J’J/’JŽR/ŽR’J/’JŽR/ŽRŽRj */
+table.kabukaData tr.namiHC{
+}
+/* ”gŒ^HDiŽRŽR/ŽR’J/’J’J/ŽR’J/’JŽR/ŽRŽRj */
+table.kabukaData tr.namiHD{
+}
+/* ”gŒ^IAi’J’J/’JŽR/ŽRŽR/ŽRŽR/’J’J/ŽRŽRj */
+table.kabukaData tr.namiIA{
+}
+/* ”gŒ^IBiŽR’J/’J’J/ŽRŽR/ŽRŽR/’J’J/ŽRŽRj */
+table.kabukaData tr.namiIB{
+}
+/* ”gŒ^ICiŽRŽR/’J’J/’JŽR/ŽRŽR/’J’J/ŽRŽRj */
+table.kabukaData tr.namiIC{
+}
+/* ”gŒ^IDiŽRŽR/ŽR’J/’J’J/ŽRŽR/’J’J/ŽRŽRj */
+table.kabukaData tr.namiID{
+}
+/* ”gŒ^IEiŽRŽR/ŽRŽR/’J’J/’JŽR/’J’J/ŽRŽRj */
+table.kabukaData tr.namiIE{
+}
+/* ”gŒ^JAi’J’J/’JŽR/ŽRŽR/ŽRŽR/ŽR’J/’JŽRj */
+table.kabukaData tr.namiJA{
+}
+/* ”gŒ^JBiŽR’J/’J’J/ŽRŽR/ŽRŽR/ŽR’J/’JŽRj */
+table.kabukaData tr.namiJB{
+}
+/* ”gŒ^JCiŽRŽR/’J’J/’JŽR/ŽRŽR/ŽR’J/’JŽRj */
+table.kabukaData tr.namiJC{
+}
+/* ”gŒ^JDiŽRŽR/ŽR’J/’J’J/ŽRŽR/ŽR’J/’JŽRj */
+table.kabukaData tr.namiJD{
+}
+/* ”gŒ^JEiŽRŽR/ŽRŽR/’J’J/’JŽR/ŽR’J/’JŽRj */
+table.kabukaData tr.namiJE{
+}
+/* ”gŒ^JFiŽRŽR/ŽRŽR/ŽR’J/’J’J/ŽR’J/’JŽRj */
+table.kabukaData tr.namiJF{
+}
+/* ”gŒ^KAi’J’J/’JŽR/ŽRŽR/ŽRŽR/ŽRŽR/’J’Jj */
+table.kabukaData tr.namiKA{
+}
+/* ”gŒ^KBiŽR’J/’J’J/ŽRŽR/ŽRŽR/ŽRŽR/’J’Jj */
+table.kabukaData tr.namiKB{
+}
+/* ”gŒ^KCiŽRŽR/’J’J/’JŽR/ŽRŽR/ŽRŽR/’J’Jj */
+table.kabukaData tr.namiKC{
+}
+/* ”gŒ^KDiŽRŽR/ŽR’J/’J’J/ŽRŽR/ŽRŽR/’J’Jj */
+table.kabukaData tr.namiKD{
+}
+/* ”gŒ^KEiŽRŽR/ŽRŽR/’J’J/’JŽR/ŽRŽR/’J’Jj */
+table.kabukaData tr.namiKE{
+}
+/* ”gŒ^KFiŽRŽR/ŽRŽR/ŽR’J/’J’J/ŽRŽR/’J’Jj */
+table.kabukaData tr.namiKF{
+}
+/* ”gŒ^KGiŽRŽR/ŽRŽR/ŽRŽR/’J’J/’JŽR/’J’Jj */
+table.kabukaData tr.namiKG{
+}
+/* ‚RŠúŒ^EŒŽAM•Ï’² */
+table.kabukaData tr.fev3Mon1{
+}
+/* ‚RŠúŒ^EŒŽPM•Ï’² */
+table.kabukaData tr.fev3Mon2{
+}
+/* ‚RŠúŒ^E‰ÎAM•Ï’² */
+table.kabukaData tr.fev3Tue1{
+}
+/* ‚RŠúŒ^E‰ÎPM•Ï’² */
+table.kabukaData tr.fev3Tue2{
+}
+/* ‚RŠúŒ^E…AM•Ï’² */
+table.kabukaData tr.fev3Wed1{
+}
+/* ‚RŠúŒ^E…PM•Ï’² */
+table.kabukaData tr.fev3Wed2{
+}
+/* ‚RŠúŒ^E–ØAM•Ï’² */
+table.kabukaData tr.fev3Thu1{
+}
+/* ‚RŠúŒ^E–ØPM•Ï’² */
+table.kabukaData tr.fev3Thu2{
+}
+/* ‚SŠúŒ^EŒŽAM•Ï’² */
+table.kabukaData tr.fev4Mon1{
+}
+/* ‚SŠúŒ^EŒŽPM•Ï’² */
+table.kabukaData tr.fev4Mon2{
+}
+/* ‚SŠúŒ^E‰ÎAM•Ï’² */
+table.kabukaData tr.fev4Tue1{
+}
+/* ‚SŠúŒ^E‰ÎPM•Ï’² */
+table.kabukaData tr.fev4Tue2{
+}
+/* ‚SŠúŒ^E…AM•Ï’² */
+table.kabukaData tr.fev4Wed1{
+}
+/* ‚SŠúŒ^E…PM•Ï’² */
+table.kabukaData tr.fev4Wed2{
+}
+/* ‚SŠúŒ^E–ØAM•Ï’² */
+table.kabukaData tr.fev4Thu1{
+}
+/* ‚SŠúŒ^E–ØPM•Ï’² */
+table.kabukaData tr.fev4Thu2{
+}
+/* ŠY“–‚È‚µ */
+table.kabukaData tr.none{
+}
+
+/* ’l‰º‚ª‚è‚µ‚½ */
+table.kabukaData td.down span{
+	font-style: italic;
+}
+/* ’lã‚ª‚è‚µ‚½ */
+table.kabukaData td.up span{
+	text-decoration: underline;
+}
+/* •Ï‚í‚ç‚È‚©‚Á‚½ */
+table.kabukaData td.same span{
+}
+
+/* ÅˆÀ’l */
+table.kabukaData td.min{
+}
+table.kabukaData td.min span{
+	background-color: #ffddee;
+}
+/* Å‚’l */
+table.kabukaData td.max{
+}
+table.kabukaData td.max span{
+	background-color: #aaffff;
+}
+
+/* ’Ji”ƒ’l”ä80%ˆÈ‰ºj */
+table.kabukaData td.tani{
+}
+/* ŽRi”ƒ’l”ä90`140“j */
+table.kabukaData td.yama{
+}
+/* ÔŽšŽRi”ƒ’l”ä90`100“j */
+table.kabukaData td.redInk.yama{
+	color: #cc33ff;
+}
+/* ”„’lƒ”ƒ’liÔŽšj */
+table.kabukaData td.redInk{
+	color: #ff0033;
+}
+/* ”„’l„”ƒ’li•Žšj */
+table.kabukaData td.blackInk{
+	color: #0033ff;
+}
+/* ”„’l”ƒ’l */
+table.kabukaData td.sameInk{
+	color: #0033ff;
+}
+
+/* ”ƒ’l”ä80“ˆÈ‰º */
+table.kabukaData td.sp_u80{
+}
+/* ”ƒ’l”ä90“ˆÈ‰º */
+table.kabukaData td.sp_u90{
+}
+/* ”ƒ’l”ä40`90“ */
+table.kabukaData td.sp_40_90{
+}
+/* ”ƒ’l”ä60`80“ */
+table.kabukaData td.sp_60_80{
+}
+/* ”ƒ’l”ä85`90“ */
+table.kabukaData td.sp_85_90{
+}
+/* ”ƒ’l”ä90`140“ */
+table.kabukaData td.sp_90_140{
+}
+/* ”ƒ’l”ä140`190“ */
+table.kabukaData td.sp_140_190{
+}
+/* ”ƒ’l”ä140`200“ */
+table.kabukaData td.sp_140_200{
+}
+/* ”ƒ’l”ä200`600“ */
+table.kabukaData td.sp_200_600{
+}
+/* ”ƒ’l”ä600“ˆÈã */
+table.kabukaData td.sp_o600{
+}
+
+/* ”„’l‚ª”ƒ’l~è‡’l‚Ì‹«ŠE’lã */
+table.kabukaData td.border{
+}
+/* Ø‚èŽÌ‚Ä‚Ì‹«ŠE’lã */
+table.kabukaData td.floorBorder{
+}
+/* ŽlŽÌŒÜ“ü‚Ì‹«ŠE’lã */
+table.kabukaData td.roundBorder{
+}
+/* Ø‚èã‚°‚Ì‹«ŠE’lã */
+table.kabukaData td.ceilBorder{
+}
+/* ‰ºŒÀ‚Ì‹«ŠE’l‚æ‚è¬‚³‚¢ */
+table.kabukaData td.underBottomBorder{
+}
+/* ‰ºŒÀ‚Ì‹«ŠE’lã */
+table.kabukaData td.bottomBorder{
+}
+/* ãŒÀ‚Ì‹«ŠE’lã */
+table.kabukaData td.topBorder{
+}
+/* ãŒÀ‚Ì‹«ŠE’l‚æ‚è‘å‚«‚¢ */
+table.kabukaData td.overTopBorder{
+}
+
+/* ”ƒ’l”ä */
+table.kabukaData td span.sp{
+	color: #888888;
+	background-color: inherit;
+	text-decoration: none;
+	font-style: normal;
+	font-size: 75%;
+}
+
+/* -------------------------------- */
+
+table.kabukaData th.id,
+table.kabukaData td.id{
+}
+table.kabukaData th.pattern,
+table.kabukaData td.pattern{
+}
+table.kabukaData th.source,
+table.kabukaData td.source{
+	border-right: 2px solid black;
+}
+table.kabukaData th.buy,
+table.kabukaData td.buy{
+	border-left: 2px solid black;
+}
+table.kabukaData th.am,
+table.kabukaData td.am{
+	border-right: 1px dashed black;
+}
+table.kabukaData th.pm,
+table.kabukaData td.pm{
+	border-left: 1px dashed black;
+}
+table.kabukaData td.id,
+table.kabukaData td.buy,
+table.kabukaData td.am,
+table.kabukaData td.pm{
+	text-align: right;
+}
