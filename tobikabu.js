@@ -4,7 +4,7 @@ function debug(text){if(DEBUG_FLAG){debugblock.innerHTML+="debug: "+text+"<br />
 // -------- debug --------
 
 // -------- version --------
-_version = "ver β1.0.2";
+_version = "ver β1.0.2-ko";
 function setVerInfo(){verInfo.innerHTML="（"+_version+"）";}
 // -------- version --------
 
@@ -112,11 +112,11 @@ function setCopipeText(prices){
 			copipeText = ( prices[i] ? prices[i] : "?" ) + copipeText;
 		}
 	}
-	copipeText = "買値" + copipeText;
+	copipeText = "구입가" + copipeText;
 	if( prices[SAT2] ){
 		copipeText = "&gt;&gt;1\n" + copipeText;
 	}
-	copipeText = "<h5>《コピペ用》</h5><form><textarea class='copipe' rows='2' cols='60' wrap='off' tabindex='18' readonly>" + copipeText;
+	copipeText = "<h5> '복사용'</h5><form><textarea class='copipe' rows='2' cols='60' wrap='off' tabindex='18' readonly>" + copipeText;
 	return copipeText;
 }
 
@@ -164,9 +164,9 @@ function namiDetailText(taniSPeriod1,taniLPeriod1){
 		if( taniSPeriod1 <= i && i <= taniSPeriod1 + 1 ||
 			taniLPeriod1 <= i && i <= taniLPeriod1 + 2
 		){
-			yamaTani += "谷";
+			yamaTani += "낙";
 		}else{
-			yamaTani += "山";
+			yamaTani += "상";
 		}
 	}
 //	yamaTani += "'>詳細</span>］";
@@ -477,7 +477,7 @@ function checkNami(buyL,buyU,prices){
 				}
 			}
 			if( buys.length > 0 ){
-				text += makeResultTableRow("波型",namiDetailText(i,j),buys,prices,priceMins,priceMaxs);
+				text += makeResultTableRow("파동형",namiDetailText(i,j),buys,prices,priceMins,priceMaxs);
 			}
 		}
 	}
@@ -509,14 +509,14 @@ function checkJiri(buyL,buyU,prices){
 		}
 	}
 	if( buys.length > 0 ){
-		text += makeResultTableRow("ジリ貧型","",buys,prices,priceMins,priceMaxs);
+		text += makeResultTableRow("감소형","",buys,prices,priceMins,priceMaxs);
 	}
 	return text;
 }
 // ３期型チェック
 function checkFev3(buyL,buyU,prices){
 	var fev3Period1s = new Array(false,_fev3MonAm,_fev3MonPm,_fev3TueAm,_fev3TuePm,_fev3WedAm,_fev3WedPm,_fev3ThuAm,_fev3ThuPm,_fev3FriAm,_fev3FriPm,_fev3SatAm,_fev3SatPm);
-	var details = new Array("","月曜AM変調","月曜PM変調","火曜AM変調","火曜PM変調","水曜AM変調","水曜PM変調","木曜AM変調","木曜PM変調","金曜AM変調","金曜PM変調","土曜AM変調","土曜PM変調");
+	var details = new Array("","월 오전 변조","월 오후 변조","화 오전 변조","화 오후 변조","수 오전 변조","수 오후 변조","목 오전 변조","목 오후 변조","금 오전 변조","금 오후 변조","토 오전 변조","토 오후 변조");
 
 	var text = "";
 	for(var i=MON1;i<=SAT2;i++){
@@ -586,7 +586,7 @@ function checkFev3(buyL,buyU,prices){
 			}
 		}
 		if( buys.length > 0 ){
-			text += makeResultTableRow("３期型",details[i],buys,prices,priceMins,priceMaxs);
+			text += makeResultTableRow("3기형",details[i],buys,prices,priceMins,priceMaxs);
 		}
 	}
 	return text;
@@ -594,7 +594,7 @@ function checkFev3(buyL,buyU,prices){
 // ４期型チェック
 function checkFev4(buyL,buyU,prices){
 	var fev4Period1s = new Array(false,_fev4MonAm,_fev4MonPm,_fev4TueAm,_fev4TuePm,_fev4WedAm,_fev4WedPm,_fev4ThuAm,_fev4ThuPm,_fev4FriAm,_fev4FriPm,_fev4SatAm,_fev4SatPm);
-	var details = new Array("","月曜AM変調","月曜PM変調","火曜AM変調","火曜PM変調","水曜AM変調","水曜PM変調","木曜AM変調","木曜PM変調","金曜AM変調","金曜PM変調","土曜AM変調","土曜PM変調");
+	var details = new Array("","월 오전 변조","월 오후 변조","화 오전 변조","화 오후 변조","수 오전 변조","수 오후 변조","목 오전 변조","목 오후 변조","금 오전 변조","금 오후 변조","토 오전 변조","토 오후 변조");
 
 	var text = "";
 	for(var i=MON1;i<=SAT2;i++){
@@ -684,7 +684,7 @@ function checkFev4(buyL,buyU,prices){
 			}
 		}
 		if( buys.length > 0 ){
-			text += makeResultTableRow("４期型",details[i],buys,prices,priceMins,priceMaxs);
+			text += makeResultTableRow("4기형",details[i],buys,prices,priceMins,priceMaxs);
 		}
 	}
 	return text;
@@ -695,13 +695,13 @@ function analyze(prices){
 	var buyU = prices[SUN] && prices[SUN]>0 ? prices[SUN] : 110;
 
 	var resultText = "";
-	resultText += "<h4>【結果】</h4>\n";
-	resultText += "<h5>《可能性のある型》</h5>\n";
+	resultText += "<h4>[결과]</h4>\n";
+	resultText += "<h5>'가능한 형식'</h5>\n";
 	resultText += "<p>\n";
 	resultText += "<table class='result'><tbody>\n";
-	resultText += "<tr><th rowspan='2' colspan='2'>型</th><th class='buy' rowspan='2'>買値</th><th colspan='12'>売値・予測売値</th></tr>\n";
-	resultText += "<tr><th>月AM</th><th>月PM</th><th>火AM</th><th>火PM</th><th>水AM</th><th>水PM</th><th>木AM</th><th>木PM</th><th>金AM</th><th>金PM</th><th>土AM</th><th>土PM</th></tr>\n";
-	resultText += "<tr><th colspan='2'>（入力値）</th>";
+	resultText += "<tr><th rowspan='2' colspan='2'>유형</th><th class='buy' rowspan='2'>구입가</th><th colspan='12'>매매가 예측</th></tr>\n";
+	resultText += "<tr><th>월 오전</th><th>월 오후</th><th>화 오전</th><th>화 오후</th><th>수 오전</th><th>수 오후</th><th>목 오전</th><th>목 오후</th><th>금 오전</th><th>금 오후</th><th>토 오전</th><th>토 오후</th></tr>\n";
+	resultText += "<tr><th colspan='2'>（입력값）</th>";
 	for(var i=SUN;i<=SAT2;i++){
 		resultText += "<td>";
 		if( prices[i] ){
@@ -743,7 +743,7 @@ function analyze(prices){
 		hasResult = true;
 	}
 	if( !hasResult ){
-		resultText += "<tr><td colspan='15'>該当なし</td></tr>\n";
+		resultText += "<tr><td colspan='15'>해당없음</td></tr>\n";
 	}
 
 	resultText += "</table></tbody>\n";
@@ -754,7 +754,7 @@ function analyze(prices){
 	resultText += setCopipeText(prices);
 
 	resultText += "<br />\n";
-	resultText += "<p>予測終了</p></div>\n";
+	resultText += "<p>예측 종료</p></div>\n";
 	return resultText;
 }
 
